@@ -7,7 +7,8 @@ The API is divided up into access scopes:
 
 * write
   * write:accounts
-    * `PUT /api/v1/accounts/verify_credentials`
+    * `GET /api/v1/accounts/verify_credentials`
+    * `PATCH /api/v1/accounts/update_credentials`
     * `POST /api/v1/statuses/:id/pin`
     * `POST /api/v1/statuses/:id/unpin`
   * write:blocks
